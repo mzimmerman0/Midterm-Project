@@ -1,0 +1,89 @@
+body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#header {
+  padding: 0px; margin: 0px;
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  color: #F4FF81;
+  text-align: right;
+  position: fixed;
+  top: 60px; left: 0;
+  z-index: 0;
+}
+
+#logo {
+  z-index: 1000;
+  color: rgb(200, 0,0);
+  font-weight: bold;
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  background-color: lightgrey;
+  border-radius: 90px;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+}
+
+#logo>p {
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#content1{
+  color: #000;
+  padding-top: 120px;
+  height: 1000px;
+}
+
+.first-row {
+  width: 30%;
+  height: 150%;
+  background-color: blue;
+  color: #fff;
+  float: left;
+  margin: 20px;
+}
+
+.second-row {
+  width: 350px;
+  height: 250px;
+  background-color: gold;
+  float: left;
+  margin: 20px;
+}
+
+.third-row {
+  width: 350px;
+  height: 150%;
+  background-color: rgb(100, 10, 200);
+  color: #fff;
+  float: center;
+  margin: 20px;
+}
+
+#Help-Box{
+  height: 50px;
+  width: 75px;
+  background-color: #000;
+  color: #F4FF81;
+  font-family: Roboto;
+  position: fixed;
+  bottom: 15%; 
+  right: 0px;
+}
+
+#footer{
+  height: 75px;
+  border-top: solid 2px #000;
+  position:relative;
+}
+
+
