@@ -1,0 +1,70 @@
+.baseball, .baseball2 {
+    width: 200px;
+    float: left;
+    margin: 1%;
+}
+
+#football {
+    position: sticky;
+}
+
+#top {
+    background-color: lightsalmon;
+}
+#header {
+    height: 30px;
+    width: 720px;
+    text-align: start;
+    color: black;
+    background-color: grey;
+    font-family: monospace;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+  }
+
+  body {
+    background-color: lightgreen;
+    padding-top: 5px;
+    width: 720px;
+  }
+
+/*
+ * Custom translucent site header
+ */
+
+ #header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  #header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  #header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+/*
+* This messed up my layout but I thought it was cool so I left it in there.
+*/
+
+.baseball, .baseball2 {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  
+
+  

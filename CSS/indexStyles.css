@@ -1,0 +1,114 @@
+.header {
+  height: 20px;
+  width: 100%;
+  text-align: start;
+  color: black;
+  background-color: grey;
+  font-family: monospace;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+}
+
+.top {
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: 'Tangerine', serif;
+}
+
+body {
+  background-color: aquamarine;
+  padding-top: 5px;
+}
+
+
+#self{
+  float: right;
+  position: relative;
+  filter: grayscale(100%);
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  border-radius: 18px;
+}
+  
+#link1 {
+  height: 270px;
+  width: 750px;
+  background-image: url(https://i.stack.imgur.com/fhEwl.png);
+  border: solid 3px black;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Archivo Black";
+  padding: 16px;
+  order:1;
+}
+
+#link1>p{
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+  
+#link2 {
+  height: 270px;
+  width: 750px;
+  background-image: url(https://i.stack.imgur.com/fhEwl.png);
+  border: solid 3px black;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Archivo Black";
+  padding: 16px;
+  order:2;
+}
+
+#link2>p{
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+#link3 {
+  height: 270px;
+  width: 750px;
+  background-image: url(https://i.stack.imgur.com/fhEwl.png);
+  border: solid 3px black;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Archivo Black";
+  padding: 16px;
+  order:3;
+}
+
+#link3>p{
+  margin-top: 5%;
+  font-size: 25px;
+}
+
+#resources{
+  height: auto;
+  width: 780px;
+  border: solid 3px black;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+}  
+
+table{
+  padding-left: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+tr.even {
+  background-color: lightgrey;
+}
+
+.links{
+  justify-content: space-around; 
+}
